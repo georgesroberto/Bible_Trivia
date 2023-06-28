@@ -5,31 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bible Trivia</title>
     <link rel="stylesheet" href="trivia.css" />
-    <script src="trivia.js"></script>
+    <script src="trivia.js"defer></script>
 </head>
-<body class="trivia">
-    <div class="container">
-        <h1 id="h1">Bible Trivia App</h1>
-        <h2 id="h2">Question</h2>
-        <ol>
-            <li>
-                <input id="a" type="radio" name="solution"/>
-                <label for="a">Answer Choice Answer Choice Answer Choice </label for="a">
-            </li>
-            <li>
-                <input id="b" type="radio" name="solution"/>
-                <label for="b">Answer Choice Answer Choice Answer Choice </label for="a">
-            </li>            
-            <li>
-                <input id="c" type="radio" name="solution"/>
-                <label for="c">Answer Choice Answer Choice Answer Choice </label for="a">
-            </li>            
-            <li>
-                <input id="d" type="radio" name="solution"/>
-                <label for="d">Answer Choice Answer Choice Answer Choice </label for="a">
-            </li>
-        </ol>
-        <button class="button">Submit Answer</button>
+<body>
+    <div class="trivia-container">
+        <h1>Bible Trivia App</h1>
+        <h3 id="quiz">Quiz</h3>
+        <div class="choices">
+            <ul>
+                <li>
+                    <input id="a" type="radio" name="solution" class="solution" />
+                    <label for="a" id="a_text" >A </label>
+               </li>
+                 <li>
+                    <input id="b"  type="radio" name="solution" class="solution"/>
+                    <label for="b" id="b_text" >B</label>
+               </li>             
+                <li>
+                    <input id="c"  type="radio" name="solution" class="solution"/>
+                    <label for="c" id="c_text">C</label>
+               </li>             
+                <li>
+                    <input id="d"  type="radio" name="solution" class="solution"/>
+                    <label for="d" id="d_text">D</label>
+                </li>
+            </ul>
+        </div>
+        <button class="button" id="submit">Submit Answer</button>
     </div>
 </body>
 </html>

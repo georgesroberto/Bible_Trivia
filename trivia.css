@@ -1,33 +1,60 @@
-.container {
+body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 22px;
     font-weight: bold;
-    background-color: aliceblue;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    max-width: 550px;
-    max-height: 550px;
-    margin-left:150px;
-    margin-right: 150px;
-    margin-top: 100px;
-    padding: 50px;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0px;
 }
 
-li{
-    padding: 8px;
+.trivia-container {
+    background-color: aliceblue;
+    border-radius: 12px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width:650px;
+    max-width: 100%;
+}
+
+h1{
+    text-align: center;
+    padding: 6px;
+    padding-bottom: 2px;
+}
+
+h3 {
+    text-align: center;
+    padding: 1.5rem;
+    padding-bottom: 0px;   
+}
+
+.choices {
+    padding: 2rem;
+    padding-top: 0px;
+}
+
+ul{ 
+    padding-top: 0px;
     list-style-type: none;
+    cursor: pointer;
+}
+
+ul li {
+    font-size: 1.3rem;
+    margin: 1rem 0;
+    cursor:pointer;
 }
 
 button{
+    display:block ;
     background-color: rgba(71, 133, 241, 0.995);
     color: #ffffff;
-    text-align: center;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
     font-weight:bolder;
-    font-size: larger;
-    border-radius: 12px;
-    width: 100%;
-    padding: 16px;
-    margin-bottom: 0px;
+    font-size: 1.5rem;
+    padding: 1rem;
+    width:100%
 }
