@@ -23,7 +23,7 @@ const trivia = [
             b: "Saul",
             c: "David",
             d: "Samuel",
-        correct:"a"
+        correct:"b"
     },
 
     {
@@ -32,7 +32,7 @@ const trivia = [
             b: "John",
             c: "Peter",
             d: "Mark",
-        correct: "a"
+        correct: "c"
     },
     
     {
@@ -49,7 +49,7 @@ const trivia = [
             b: "Joseph",
             c: "Jacob",
             d: "Ishmael",
-        correct:"a"
+        correct:"b"
     },
     {
         quiz: "Which of the following is not one of the Plagues of Egypt?",
@@ -61,11 +61,11 @@ const trivia = [
     },
     {
         quiz: "How many disciples did Jesus have?",
-             a: "10",
+            a: "10",
             b: "12",
             c: "15",
             d: "20",
-        correct:"a"
+        correct:"b"
         
     },
     {
@@ -74,7 +74,7 @@ const trivia = [
             b: "James",
             c: "Judas",
             d: "John",
-        correct:"a"
+        correct:"c"
     },
     {
         quiz: "What is the first book of the New Testament?",
