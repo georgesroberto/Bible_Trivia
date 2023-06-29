@@ -150,6 +150,7 @@ ans.addEventListener('click', () => {
         } else {
             //SHOW RESULTS
             alert("Your score is "+score+" out of "+trivia.length);
+            location.reload()
         }
     }
 });
