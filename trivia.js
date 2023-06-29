@@ -56,8 +56,8 @@ const trivia = [
             a: "Frogs",
             b: "Locusts",
             c: "Hail",
-            d: "Darkness",
-        correct:"a"    
+            d: "None of the above",
+        correct:"d"    
     },
     {
         quiz: "How many disciples did Jesus have?",
