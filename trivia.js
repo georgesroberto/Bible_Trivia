@@ -150,7 +150,20 @@ ans.addEventListener('click', () => {
         } else {
             //SHOW RESULTS
             alert("Your score is "+score+" out of "+trivia.length);
-            location.reload()
+            location.reload();
+            if(score < 5){
+                alert(score + " is a good trial. You are better than those who didn't take the challenge.");
+                window.location.href = "https://roberto-georges.vercel.app"
+            } else if(score >= 5){
+                alert(score + " is a SHOOT!! You really Love the Bible.");
+                window.location.href = "https://roberto-georges.vercel.app"
+            } else if(score === 10){
+                alert("NAILED IT!!. Can I join you for classes?");
+                location.load("https://roberto-georges.vercel.app");
+            } else {
+                alert("Thank you for taking up the challenge");
+                window.location.href = "https://roberto-georges.vercel.app"
+            }
         }
     }
 });
